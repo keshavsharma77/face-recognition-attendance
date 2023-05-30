@@ -51,7 +51,6 @@ while True:
 
         if match[best_match_index]:
             name = known_face_names[best_match_index]
-            print("virat matched")
 
         # Add name in text on image
         if name in known_face_names:
